@@ -1,0 +1,101 @@
+/* цвет заголовков 
+#212121;
+*/
+
+/* цвет текста #757575 */
+
+/* акцент #2196F3 */
+
+
+body{
+    color: #757575;
+}
+
+.header{
+    background-color: #FFFFFF;
+}
+.link{
+    text-decoration: none;
+}
+
+.first-part{
+    color: #2196F3;
+}
+
+.last-part{
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav .nav-item{
+    color: #212121;
+}
+
+.nav .nav-item:hover,
+.nav .nav-item:focus{
+    color: #2196F3;
+}
+
+.contacts .contact{
+    color: #757575;
+}
+
+.contacts .contact:hover,
+.contacts .contact:focus{
+    color:#2196F3
+}
+
+.black-bcg{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.bcg{
+    background-color: #E5E5E5;
+}
+.feature{
+    display: none;
+}
+
+.feature-title{
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.secondary-title {
+    color: #212121;
+}
+
+.second-bcg{
+    background-color:#F5F4FA;
+}
+
+.team{
+    background-color: #FFFFFF;
+}
+.team .team-name{
+    color: #212121;
+}
+
+.address .location {
+    color: #FFFFFF;
+}
+
+.address .address-contacts{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.hero .last-part{
+    color: #FFFFFF;
+}
