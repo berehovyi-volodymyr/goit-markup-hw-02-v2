@@ -78,6 +78,7 @@ ul{
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -85,6 +86,7 @@ ul{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -152,7 +154,51 @@ background-color: #188CE8;
     font-size: 14px;
     line-height: 1.71;
 }
-
+.address .location:hover,
+.address .location:focus,
+.address .address-contacts:hover,
+.address .address-contacts:focus {
+    color: var(--accent-color);
+}
 .black-bcg .last-part{
     color: #FFFFFF;
+}
+
+/* Страница Портфолио */
+.bcg-portfolio{
+    background-color: #E5E5E5;
+}
+.filter .btn{
+    background-color: #F5F4FA;
+    border: none;
+    color: var(--tittle-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer
+}
+
+.filter .btn:hover,
+.filter .btn:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.portfolio .portfolio-item{
+    background-color: #FFFFFF;
+}
+
+.portfolio .portfolio-title{
+    color: var(--tittle-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .portfolio-app{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
