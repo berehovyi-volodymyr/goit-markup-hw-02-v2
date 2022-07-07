@@ -1,14 +1,12 @@
-/* цвет заголовков 
-#212121;
-*/
-
-/* цвет текста #757575 */
-
-/* акцент #2196F3 */
-
-
+:root{
+    --text-color:#757575;
+    --tittle-color:#212121;
+    --accent-color: #2196F3;
+}
 body{
-    color: #757575;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .header{
@@ -19,11 +17,15 @@ body{
 }
 
 .first-part{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .last-part{
     color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 ul{
@@ -31,21 +33,32 @@ ul{
 }
 
 .nav .nav-item{
-    color: #212121;
+    color: var(--tittle-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
+.nav-item.current{
+    color: var(--accent-color);
+}
 .nav .nav-item:hover,
 .nav .nav-item:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contacts .contact{
-    color: #757575;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts .contact:hover,
 .contacts .contact:focus{
-    color:#2196F3
+    color: var(--accent-color);
 }
 
 .black-bcg{
@@ -53,47 +66,91 @@ ul{
 }
 .hero-title{
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+background-color: #188CE8;
 }
 
 .bcg{
     background-color: #E5E5E5;
 }
-.feature{
+.title{
     display: none;
 }
 
-.feature-title{
-    color: #212121;
+.feature .feature-title{
+    color: var(--tittle-color);
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
+.feature .feature-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
+
 .secondary-title {
-    color: #212121;
+    color: var(--tittle-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .second-bcg{
     background-color:#F5F4FA;
 }
 
-.team{
+.team-member{
     background-color: #FFFFFF;
 }
 .team .team-name{
-    color: #212121;
+    color: var(--tittle-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team .team-position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .address .location {
     color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .address .address-contacts{
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .black-bcg .last-part{
